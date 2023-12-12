@@ -24,8 +24,11 @@ __Note:__ The installation instructions will depend on the specific technology s
 ## Here is a general example of installation instructions:
 
 - Clone the repository using Git:
-`git clone https://github.com/your-username/to-do-list.git`
+
+`git clone https://github.com/visionthex/to-do-list.git`
 - Install the required dependencies:
+
 `npm install`
 - Start the application:
+
 `npm start`
