@@ -12,7 +12,7 @@ This app helps you manage your tasks, making life easier and less stressful.
 
 ## Get started today and experience the joy of a well-managed life!
 
-__P.S. We love feedback!__ If you have any questions or suggestions, don't hesitate to reach out.
+__P.S. I love feedback!__ If you have any questions or suggestions, don't hesitate to reach out.
 
 ## Features
 - Add, edit, and delete tasks
@@ -23,8 +23,13 @@ __Note:__ The installation instructions will depend on the specific technology s
 
 ## Here is a general example of installation instructions:
 Clone the repository using Git:
+
 `git clone https://github.com/visionthex/to-do-list.git`
+
 Install the required dependencies:
+
 `npm install`
+
 Start the application:
+
 `npm start`
