@@ -2,6 +2,8 @@
   <img src="https://github.com/visionthex/To-Do_List/blob/project/img/DisplayWebsite.png" alt="image1">
 </p>
 
+[![Version](https://img.shields.io/badge/version-v1.0-blue.svg)](https://github.com/visionthex/to-do-list/releases/tag/v1.0) [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/visionthex/to-do-list/blob/main/CONTRIBUTING.md)
+
 # To-Do-List: Keep track of your stuff!
 This app helps you manage your tasks, making life easier and less stressful.
 
