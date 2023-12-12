@@ -4,10 +4,14 @@
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   box-sizing: border-box;
 }
+
 .container{
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(135deg, rgb(0, 122, 122), rgb(2, 2, 133))
+  background: linear-gradient(135deg, rgb(0, 122, 122), rgb(2, 2, 133));
+  border: 1px solid;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px;
 }
 .todo-list{
   width: 100%;
@@ -21,6 +25,9 @@
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+}
+.todo-list h2 img {
+  margin-left: 30px; /* Adjust the left margin for the image */
 }
 .row{
   display: flex;

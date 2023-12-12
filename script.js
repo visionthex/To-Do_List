@@ -17,6 +17,12 @@ function addTask(){
   saveData(); // saves any of the created tasks.
 }
 
+inputBox.addEventListener("keydown", function (e) {
+  if (e.key === "Enter") {
+    addTask(); // Pressing enter on the keyboard after typing.
+  }
+});
+
 listContainer.addEventListener("click", function(e){
   if(e.target.tagName === "LI"){
     e.target.classList.toggle("checked");
