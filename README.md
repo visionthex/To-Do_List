@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://github.com/visionthex/To-Do_List/blob/project/img/DisplayWebsite.png" alt="image1">
+</p>
 # To-Do-List: Keep track of your stuff!
 This app helps you manage your tasks, making life easier and less stressful.
 
