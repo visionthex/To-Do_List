@@ -26,18 +26,18 @@ inputBox.addEventListener("keydown", function (e) {
 listContainer.addEventListener("click", function(e){
   if(e.target.tagName === "LI"){
     e.target.classList.toggle("checked");
-    saveData(); // saves any checked items
+    saveData(); // Saves any checked items
   } else if(e.target.tagName === "SPAN"){
     e.target.parentElement.remove();
     saveData(); // Saves any of the deleted data or/or checked items.
   }
 }, false);
 
-function saveData(){ //Saves data on website
+function saveData(){ // Saves data on website
   localStorage.setItem("data", listContainer.innerHTML);
 }
 
-function showTask(){
+function showTask(){ // Stores data locally
   listContainer.innerHTML = localStorage.getItem("data");
 }
 showTask();
